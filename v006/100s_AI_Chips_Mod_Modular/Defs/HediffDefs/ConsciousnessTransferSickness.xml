@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<HediffDef>
+    <defName>ConsciousnessTransferSickness</defName>
+    <label>Consciousness Transfer Sickness</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    Disorientation
+    <minSeverity>0.1</minSeverity>
+    <maxSeverity>0.5</maxSeverity>
+</HediffDef>
+</Defs>

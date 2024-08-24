@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="BaseDrug">
+    <defName>MindDrive</defName>
+    <label>Mind Drive</label>
+    <description>A rare and powerful AI device that can store a colonist's consciousness and transfer it to another body.</description>
+    <graphicData>
+        <texPath>Things/Item/MindDrive</texPath>
+    </graphicData>
+    <ingestible>
+        <ingestEffect>ConsumeEffect</ingestEffect>
+        <hediffToAdd>MindDriveImplant</hediffToAdd>
+    </ingestible>
+    <statBases>
+        <Mass>0.2</Mass>
+        <MarketValue>1000</MarketValue>
+    </statBases>
+</ThingDef>
+</Defs>

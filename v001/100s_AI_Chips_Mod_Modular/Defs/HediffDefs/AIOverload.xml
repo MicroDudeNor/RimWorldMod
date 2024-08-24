@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<HediffDef>
+    <defName>AIOverload</defName>
+    <label>AI Overload</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <severityLabel>AI Overload</severityLabel>
+    <minSeverity>0.1</minSeverity>
+    <maxSeverity>1.0</maxSeverity>
+    <lethalSeverity>0.9</lethalSeverity>
+</HediffDef>
+</Defs>

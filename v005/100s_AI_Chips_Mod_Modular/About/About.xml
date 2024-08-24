@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+    <name>100's AI Chips Mod - Modular</name>
+    <description>This mod introduces AI chips and mind drives inspired by The 100 TV show, adding new items and health effects to RimWorld.</description>
+    <author>MicroDude</author>
+    <packageId>AIChipsMod.Modular</packageId>
+		<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+</ModMetaData>

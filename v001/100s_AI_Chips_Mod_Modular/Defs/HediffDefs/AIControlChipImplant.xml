@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <HediffDef>
+        <defName>AIControlChipImplant</defName>
+        <label>AI Control Chip Implant</label>
+        <hediffClass>HediffWithComps</hediffClass>
+        <comps>
+            <li Class="HediffComp_GiveHediff">
+                <hediffDef>AIOverload</hediffDef>
+                <chancePerHour>0.001</chancePerHour>
+            </li>
+        </comps>
+    </HediffDef>
+</Defs>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ThingDef ParentName="BaseDrug">
+    <defName>AIControlChip</defName>
+    <label>AI Control Chip</label>
+    <description>An advanced AI chip that can be implanted into a colonist, enhancing their abilities but potentially causing mental instability.</description>
+    <graphicData>
+        <texPath>Things/Item/AIControlChip</texPath>
+    </graphicData>
+    <ingestible>
+        <ingestEffect>ConsumeEffect</ingestEffect>
+        <hediffToAdd>AIControlChipImplant</hediffToAdd>
+    </ingestible>
+    <comps>
+        <li Class="CompProperties_UseEffect" />
+    </comps>
+    <statBases>
+        <Mass>0.1</Mass>
+        <MarketValue>500</MarketValue>
+    </statBases>
+</ThingDef>
+</Defs>

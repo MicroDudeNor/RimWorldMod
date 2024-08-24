@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<HediffDef>
+    <defName>MindDriveImplant</defName>
+    <label>Mind Drive Implant</label>
+    <hediffClass>HediffWithComps</hediffClass>
+    <comps>
+        <li Class="HediffComp_GiveHediff">
+            <hediffDef>ConsciousnessTransferSickness</hediffDef>
+            <chancePerHour>0.01</chancePerHour>
+        </li>
+    </comps>
+</HediffDef>
+</Defs>
